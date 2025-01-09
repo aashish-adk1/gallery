@@ -1,17 +1,24 @@
 /* Navigation */
 
-@media only screen and (max-width:1023px) {
-    
-    #section-home{
-        background-image: url('images/background.jpg');
-        background-position: bottom center;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width:100vw;  
-    }
-    .hamburger{
-        visibility: visible;
+@media only screen and (max-width:1440px) {
+   #navbar .menu-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;
+    color:whitesmoke;
+
+   }
+   .menu-icons li a{
+    color: aliceblue;
+   }
+   
+    #navbar .hamburger{
+       display: block;
+       color: black;
+       margin-right: 4.5rem;
     }
 }
